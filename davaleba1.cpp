@@ -55,7 +55,7 @@ class Skillwill_lecture: public abstract_lecturer{
             this -> Chapter = Chapter;
         }
     void Lecture_teaching(){
-        cout << "line 58" << endl;
+        cout << "lection in progress" << endl;
     }
 };
 
