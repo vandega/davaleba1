@@ -55,7 +55,7 @@ class Skillwill_lecture: public abstract_lecturer{
             this -> Chapter = Chapter;
         }
     void Lecture_teaching(){
-        cout << "lection in progress" << endl;
+        cout << F_name << " " << L_name << " is on " << Lecture << " lection" << endl;
     }
 };
 
